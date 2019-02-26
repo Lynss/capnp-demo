@@ -5,3 +5,5 @@ authors = ["龙云 <longyun@co-mall.com>"]
 edition = "2018"
 
 [dependencies]
+listenfd = "0.3"
+actix-web = "0.7.18"
