@@ -49,5 +49,5 @@ pub fn main() {
         .get_response()
         .expect("failed to get response content");
     let message = response.get_message().expect("failed to get message");
-    dbg!(message);
+    dbg!(&message);
 }
