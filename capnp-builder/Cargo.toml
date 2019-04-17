@@ -1,0 +1,11 @@
+[package]
+name = "capnp-builder"
+version = "0.1.0"
+authors = ["lynss <ly1169134156@163.com>"]
+edition = "2018"
+
+[build-dependencies]
+capnpc = "0.9.3"
+
+[dependencies]
+capnp = "0.9.4"

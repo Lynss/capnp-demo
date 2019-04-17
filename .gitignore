@@ -1,3 +1,6 @@
 /target
 **/*.rs.bk
 /.idea
+/.history
+/.vscode
+*_capnp.rs

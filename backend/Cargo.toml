@@ -4,6 +4,19 @@ version = "0.1.0"
 authors = ["龙云 <longyun@co-mall.com>"]
 edition = "2018"
 
+[[bin]]
+name="client"
+path="client.rs"
+
 [dependencies]
 listenfd = "0.3"
 actix-web = "0.7.18"
+env_logger = "0.6.1"
+actix-web-async-await = "0.2.0"
+tokio-core = "0.1.17"
+capnp-builder= {path = "../capnp-builder"}
+capnp-rpc = "0.9.0"
+tokio-io = "0.1.12"
+futures = "0.1.26"
+capnp = "0.9.4"
+tokio = "0.1.18"

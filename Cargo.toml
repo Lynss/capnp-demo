@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "capnp-builder",
+    "service",
+    "backend",
+]

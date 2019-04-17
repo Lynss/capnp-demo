@@ -5,4 +5,10 @@ authors = ["lynss <ly1169134156@163.com>"]
 edition = "2018"
 
 [dependencies]
-grpc-materal = {path = "./grpc-material"}
+capnp-rpc = "0.9.0"
+capnp-builder= {path = "../capnp-builder"}
+capnp = "0.9.4"
+tokio = "0.1.18"
+futures = "0.1.26"
+tokio-core = "0.1.17"
+tokio-io = "0.1.12"
